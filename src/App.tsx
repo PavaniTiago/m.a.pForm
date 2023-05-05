@@ -26,7 +26,6 @@ const createUserFormSchema = z.object({
 
   email: z.string()
     .nonempty('O e-mail é obrigatorio')
-    .email('Formato de e-mail inválido')
     .toLowerCase(),
 })
 
@@ -45,6 +44,7 @@ function App() {
     setName('')
     setEmail('')
     alert('Formulário enviado com sucesso!')
+    window.location.reload()
   }
 
   return (
