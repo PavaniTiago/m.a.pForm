@@ -36,8 +36,8 @@ function App() {
     resolver: zodResolver(createUserFormSchema),
   })
 
-  const [name, setName] = useState<string>();
-  const [email, setEmail] = useState<string>();
+  const [name, setName] = useState<any>();
+  const [email, setEmail] = useState<any>();
 
   function createData(data: CreateUserFormData) {
     axios.post(import.meta.env.VITE_API_KEY, data)
