@@ -56,10 +56,10 @@ function App() {
       <div className='absolute flex xsm:flex-col lg:flex-row items-end h-screen justify-evenly w-full overflow-hidden'>
         <img src={alessandra} alt="foto de alessandra pavani" className='xsm:self-center top-0 mt-4 lg:mt-0 absolute invisible lg:visible lg:relative lg:self-end xsm:h-[13rem] sm:h-[19rem] md:h-[25rem] lg:h-[42rem] 3xl:h-[50rem] z-10' />
         <div className='w-[35rem] h-[35rem] 3xl:w-[40rem] 3xl:h-[40rem] rounded-full absolute bg-[#B97748] blur-[230px] right-[50rem] 3xl:right-[65rem] top-[20rem] 3xl:top-[35rem]'></div>
-        <form onSubmit={handleSubmit(createData)} className='absolute lg:relative xsm:bottom-6 sm:bottom-12 md:bottom-20 lg:bottom-0 flex flex-col justify-center items-center md:mx-16 sm:px-10 xsm:px-14 lg:px-0 lg:w-[30rem] lg:h-[50rem] 3xl:w-[35rem] 3xl:h-[65rem] z-10'>
+        <form onSubmit={handleSubmit(createData)} className='absolute lg:relative xsm:bottom-6 sm:bottom-8 md:bottom-20 lg:bottom-0 flex flex-col justify-center items-center md:mx-16 sm:px-10 xsm:px-14 lg:px-0 lg:w-[30rem] lg:h-[50rem] 3xl:w-[35rem] 3xl:h-[65rem] z-10'>
           <img src={logo} alt="log do studio alessandra pavani" className='p-4 md:w-fit md:h-[18rem] lg:p-16 object-cover lg:pb-6 brightness-150' />
-          <h1 className='xsm:text-xl sm:text-2xl lg:text-3xl font-bold text-center text-slate-100 xsm:pb-2 sm:pb-6'>Não perca nenhuma de nossas lives 100% online e gratuito</h1>
-          <p className='xsm:text-base sm:text-lg text-neutral-400 pb-4 text-center'>Embarque gratuitamente para receber acesso ao evento:</p>
+          <h1 className='xsm:text-xl sm:text-2xl lg:text-3xl font-bold text-center text-slate-100 xsm:pb-2 sm:pb-6'>M.A.P transformation seja o próximo profissional especialista em cachos!</h1>
+          <p className='xsm:text-base sm:text-lg text-neutral-400 pb-4 text-center'>Aulas gratuitas ao vivo nos dias 18 e 19. Para receber o acesso do evento cadastre-se</p>
           <div className='relative w-full'>
             <div className='flex pointer-events-none absolute pl-3 sm:py-[18px] xsm:py-3 items-center'>
               <User className="text-slate-200" size={25} />

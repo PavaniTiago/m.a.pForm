@@ -13,9 +13,9 @@ export default {
     extend: {},
     screens:{
       '3xl': '1920px',
-      'lg': '1024px',
-      'md': '540px',
-      'sm': '390px',
+      'lg': '900px',
+      'md': '700px',
+      'sm': '375px',
       'xsm': '280px',
     },
   },
