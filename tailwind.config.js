@@ -15,7 +15,7 @@ export default {
       '3xl': '1920px',
       'lg': '900px',
       'md': '700px',
-      'sm': '376px',
+      'sm': '330px',
       'xsm': '280px',
     },
   },
