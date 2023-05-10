@@ -58,8 +58,8 @@ function App() {
         <div className='w-[35rem] h-[35rem] 3xl:w-[40rem] 3xl:h-[40rem] rounded-full absolute bg-[#B97748] blur-[230px] right-[50rem] 3xl:right-[65rem] top-[20rem] 3xl:top-[35rem]'></div>
         <form onSubmit={handleSubmit(createData)} className='absolute lg:relative xsm:bottom-6 sm:bottom-8 md:bottom-20 lg:bottom-0 flex flex-col justify-center items-center md:mx-16 sm:px-10 xsm:px-14 lg:px-0 lg:w-[30rem] lg:h-[50rem] 3xl:w-[35rem] 3xl:h-[65rem] z-10'>
           <img src={logo} alt="log do studio alessandra pavani" className='w-fit p-[4.5rem] relative top-[4rem] md:top-0 md:w-fit md:h-[18rem] lg:p-16 object-cover lg:pb-6 brightness-125' />
-          <h1 className='xsm:text-lg sm:text-xl lg:text-3xl font-bold text-center text-slate-100 xsm:pb-2 sm:pb-2'>M.A.P transformation seja o próximo profissional especialista em cachos!</h1>
-          <p className='xsm:text-base sm:text-md text-neutral-400 pb-4 text-center'>Aulas gratuitas ao vivo nos dias 18 e 19. Para receber o acesso do evento cadastre-se</p>
+          <h1 className='xsm:text-lg sm:text-xl lg:text-3xl font-bold text-center text-slate-100 xsm:pb-2 sm:pb-2'>M.A.P TRANSFORMATION seja o próximo profissional especialista em cachos!</h1>
+          <p className='xsm:text-base sm:text-md text-neutral-400 pb-4 text-center'>Aulas gratuitas ao vivo nesse mês de Maio, Para receber mais informações cadastre-se</p>
           <div className='relative w-full'>
             <div className='flex pointer-events-none absolute pl-3 sm:py-[14px] xsm:py-3 items-center'>
               <User className="text-slate-200" size={25} />
